@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html style='font-size: 20px;'>
+<head>
+
+
+<style>
+#head {
+	text-align: center;
+	margin-top: 10px ;
+}
+.span {
+	margin-top: -5px;
+	vertical-align: top !important;
+}
+
+.cbs {
+	margin-top: 7px !important;
+	margin-bottom: 7px !important;
+	margin-right: 15px !important;
+	padding-right: 15px !important;
+	width: 0.8rem;
+    height: 0.8rem;
+    vertical-align: center;
+}
+
+input:checked {
+    background-color: #2196F3;
+}
+
+
+</style>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-	rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-	Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+
+<body style="width:400px; ">
+	<h1 id = "head">Welcome to APLUS</h1>
+	<hr style = "margin: auto; margin-top: 0px; margin-bottom: 10px; height: 1px;color:#EAEFF5;background-color:#EAEFF5; width: 80%; align="center" "/>
+	<div class = "mytest" id= 'insert_here' style = "padding-left: 15px;">
+		<div id='message'></div>
+	</div>
+	<hr style = "margin: auto; margin-top: 0px; margin-bottom: 10px; height: 1px;color:#EAEFF5;background-color:#EAEFF5; width: 80%; align="center" "/>
+	
+	<div style = "display: flex; justify-content: center; padding-bottom: 10px;">
+	
+		<button class = "btn btn-primary" type = 'button' id = 'download' style = 'font-size: 16px;'>Download selected</button>
+	
+			&nbsp &nbsp
+	
+		<button class = "btn btn-danger" type = 'button' id = 'clear' style = 'font-size: 16px;'>Clear selected</button>
+	</div>
+	<script src='popup.js'></script>
+</body>
+</html>
